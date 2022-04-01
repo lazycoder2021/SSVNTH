@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
 }
 html {
     scroll-behavior: smooth;
@@ -303,7 +304,8 @@ plus-icon:hover {
     transition: all 0.4s;
 }
 .plus-icon {
-    animation: rotate 0.5s infinite;
+    animation: rotate 0.5s;
+    animation-iteration-count:1;
     
 }
 
@@ -345,7 +347,7 @@ plus-icon:hover {
     //border: 1px solid black;
     width: 90%;
     height: 500px;
-    margin: 0px auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: row;
 }
@@ -645,7 +647,7 @@ plus-icon1:hover {
     transition: all 0.4s;
 }
 .plus-icon1 {
-    animation: rotate 0.5s infinite;
+    //animation: rotate 0.5s infinite;
     
 }
 
@@ -1208,7 +1210,7 @@ a{
         }
 
         .sec5 h1 {
-            font-size: 40px;
+            font-size: 30px;
             width: 480px;
             margin-left: 10px;
         }
@@ -1252,6 +1254,7 @@ a{
 
     .sec7divition{
         height:auto;
+        width:450px;
     }
 
     .section7logo{
